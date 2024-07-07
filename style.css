@@ -1,0 +1,54 @@
+.back{
+    background-color: palevioletred;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 18%;
+    position: fixed;
+    justify-content: first baseline;
+    row-gap: 1px;
+    padding-top: 0;
+}
+.back a{
+    float: left;
+    color: rgb(15, 14, 15);
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration:none;
+    font-size:x-large;
+}
+.back a:hover{
+    background-color: rgb(10, 207, 37);
+    color: rgb(12, 12, 11);
+}.img{
+    height: 40px;
+    width:40px;
+}
+.s{
+    background-color: palevioletred;
+    color: black;
+    height: 30px;
+}
+.h{
+    width: 345px;
+height: 200px;}
+.v{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#item1{
+    justify-content:flex-end;
+    align-content:center;
+}
+.m{
+    justify-content:left ;
+    font-size: x-large;
+}
+.n{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
